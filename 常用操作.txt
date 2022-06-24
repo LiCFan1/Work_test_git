@@ -1,2 +1,9 @@
 常规流程：
-git status -->
+git status -->查看修改的状态
+git add 文件名 --> 指定此次commit包含的文件
+	git add . 可以将目录下的所有文件都放到暂存区
+git commit -a –m “注释”--> 完成一次到本地git的commit
+
+git log --> 看一下之前的commit的记录
+git reset --hard commit_id -->恢复到某个commit
+
